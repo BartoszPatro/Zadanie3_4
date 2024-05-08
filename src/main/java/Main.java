@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Podaj dlugosc boku przyprostokatnych n");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+        int x;
         System.out.println("Podaj znak z jakiego ma byc zrobiony trojkat");
         char znak = scanner.next().charAt(0);
         scanner.close();
